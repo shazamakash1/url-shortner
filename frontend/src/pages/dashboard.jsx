@@ -11,10 +11,8 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import Error from "@/components/erros";
 import LinkCard from "@/components/link-card";
-import { Button } from "@/components/ui/button";
-import { CreateLink } from "@/components/create-link";
 
-const appURL = import.meta.env.VITE_APPLICATION_URL;
+import { CreateLink } from "@/components/create-link";
 
 const Dashboard = () => {
   const [searchQuery, setSearchQuery] = useState("");
